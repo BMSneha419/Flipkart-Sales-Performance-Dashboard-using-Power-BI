@@ -21,14 +21,14 @@ The dashboard is structured into three logical pages, each addressing specific b
         * **Total Orders:** There were **1,000 unique customer orders**.
         * **Average Order Value:** The average customer transaction value is **₹75,210**. This indicates a solid typical spend per order, which can guide upselling strategies.
 
-2.  **Monthly Sales Trend (Line Chart)**
+2.  **Monthly Sales Trend**
     * **Purpose:** To visualize sales performance over time, identifying patterns, seasonality, and significant changes.
     * **Insights:**
         * **Peak Performance:** Sales peaked in **July 2024**, reaching approximately **₹7.6 Million**. This could correspond to a major sale event or seasonal demand.
         * **Significant Decline:** A sharp drop is observed in **February 2025**, with sales plummeting to around **₹1.5 Million**. This represents a significant decline (approx. 74% from January 2025's apparent peak) and requires immediate investigation into potential causes (e.g., data cut-off, market conditions, operational issues).
         * **Seasonality:** A general pattern of strong sales from **March to July**, a slight dip, followed by a pickup towards **November-December**, suggests potential seasonal influences or holiday shopping patterns.
 
-3.  **Sales by Day of Week (Clustered Column Chart)**
+3.  **Sales by Day of Week**
     * **Purpose:** To understand sales distribution across different days of the week and identify peak/off-peak periods.
     * **Insights:**
         * **Top Sales Days:** **Saturday (₹12.1 Million)** and **Wednesday (₹11.7 Million)** are the highest-performing sales days, indicating strong weekend and midweek customer activity.
@@ -41,21 +41,21 @@ The dashboard is structured into three logical pages, each addressing specific b
 
 #### Visualizations & Insights:
 
-1.  **Sales by Category & Product (Treemap)**
+1.  **Sales by Category & Product**
     * **Purpose:** To visually represent the sales contribution of hierarchical data (categories and products within them).
     * **Insights:**
         * **Dominant Category:** **Electronics** is clearly the leading sales category, indicating its high revenue contribution.
         * **Top Products within Categories:** Within Electronics, **Laptop (approx. ₹4 Million)** and **Smartphone** are significant revenue drivers. This highlights key product lines for focused attention.
         * **Sales Distribution:** The treemap effectively illustrates that sales are concentrated in a few key categories and specific products, guiding strategic resource allocation.
 
-2.  **Unit Price vs. Quantity Sold by Product (Scatter Chart)**
+2.  **Unit Price vs. Quantity Sold by Product**
     * **Purpose:** To explore the relationship between a product's average unit price and its sales volume, with bubble size representing total sales.
     * **Insights:**
         * **"Star" Products:** Identifies products with both high unit prices (e.g., approaching **₹30K**) and high quantity sold (e.g., **~190 units**), represented by larger bubbles. These are highly valuable products.
         * **Strategic Segmentation:** Reveals clusters of products, such as those in the mid-range price (₹20K-₹25K) with moderate quantities (100-120 units), helping to categorize products for different sales strategies.
         * **Outlier Detection:** Helps to spot products that deviate from typical price-volume relationships, warranting further investigation.
 
-3.  **Top 10 Products by Sales (Table Visual)**
+3.  **Top 10 Products by Sales**
     * **Purpose:** To provide precise, sortable numerical data for the highest-performing individual products.
     * **Insights:**
         * **Top Product:** **Educational Book** is the highest-selling product by value, generating **₹45,22,055** from **188 units sold**.
@@ -69,24 +69,24 @@ The dashboard is structured into three logical pages, each addressing specific b
 
 #### Visualizations & Insights:
 
-1.  **Sales by Payment Method (Donut Chart)**
+1.  **Sales by Payment Method**
     * **Purpose:** To show the proportional contribution of each payment method to total sales.
     * **Insights:**
         * **Primary Payment Channels:** **Wallet (17.88%),** **Net Banking (17.58%)** and **UPI (17.01%)** are the most popular payment methods by sales contribution, indicating a strong customer preference for these digital options.
         * **Balanced Distribution:** Sales are relatively balanced across various payment methods (each contributing between 14-18%), suggesting robust support for diverse customer preferences.
 
-2.  **Average Customer Rating (Gauge Visual)**
+2.  **Average Customer Rating**
     * **Purpose:** To provide a quick, visual indication of overall customer satisfaction against a set target.
     * **Insights:**
         * **Performance Gap:** The current average customer rating of **3.0** is below the target of **4.0**, clearly signaling an area that requires attention for improving customer satisfaction. The gauge's color (likely a warmer tone) further emphasizes this.
 
-3.  **Sales by Customer Rating (Clustered Column Chart)**
+3.  **Sales by Customer Rating**
     * **Purpose:** To analyze the revenue contribution from products with different customer rating levels.
     * **Insights:**
         * **Value of High Ratings:** The majority of sales revenue is driven by products with **4-star ratings (approx. ₹2.8 Million)** and **3-star ratings (approx. ₹2.5 Million)**, directly demonstrating the financial benefit of high customer satisfaction.
         * **Impact of Low Ratings:** Products with **1-star ratings** contribute the sales (around **₹2.6 Million**), highlighting specific problem areas.
 
-4.  **Orders by Customer Rating & Product (Table Visual)**
+4.  **Orders by Customer Rating & Product**
     * **Purpose:** To provide a detailed breakdown of products within each customer rating category, showing specific items and their associated order counts.
     * **Insights:**
         * **Problem Identification:** Specific products like **Headphones (average rating 2.8, 44 orders)** and **Lipstick (average rating 2.8, 44 orders)** can be identified as having lower customer satisfaction, allowing for targeted product improvements or customer service interventions.
